@@ -1,0 +1,18 @@
+@import url(forms.css);
+@import url(typography.css);
+@import url(buttons.css);
+
+.need, .team ul, .test ul, footer ul.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.need img {
+    width: 50%;
+}
+
+.team img {
+    width: 10%;
+    border-radius: 100%;
+}
