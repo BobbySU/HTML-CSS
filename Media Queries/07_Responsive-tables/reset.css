@@ -1,0 +1,18 @@
+@import url(typography.css);
+
+body {
+    background-color: lightgray;
+}
+
+table, td { 
+    border: 1px solid black;
+  }
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
