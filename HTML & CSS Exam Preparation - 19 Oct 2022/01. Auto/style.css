@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins";
+  color: gray;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat";
+  color: black;
+}
+
+.section {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.section .info,
+.section .picture {
+  width: 50%;
+}
+
+.lists {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.lists li {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.lists li img {
+  width: 80px;
+}
+
+.lists li div h3,
+.lists li div p {
+  margin: 0px;
+}
+
+.title, .info .about:last-of-type {
+    margin-bottom: 32px;
+}
+
+.lists li:not(:last-child) {
+    margin-bottom: 16px;
+}
