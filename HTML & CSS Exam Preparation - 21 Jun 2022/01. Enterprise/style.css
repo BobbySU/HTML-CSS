@@ -1,0 +1,67 @@
+@import url(reset.css);
+
+:root {
+  --clr-primary: #786eff;
+  --clr-grey-light: #f6f8f9;
+  --clr-grey-dark: #49525e;
+  --clr-dark: #283341;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.section {
+  width: 95%;
+  max-width: 1000px;
+  margin: 32px auto;
+  background-color: var(--clr-grey-light);
+  border-radius: 8px;
+  padding: 48px;
+  position: relative;
+}
+
+.section .info {
+  max-width: 40%;
+  color: var(--clr-dark);
+}
+
+.section .info .subtitle {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.section .info .title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.section .info .desc {
+  color: var(--clr-grey-dark);
+  margin-bottom: 24px;
+}
+
+.button .btn {
+  border: 1px solid var(--clr-dark);
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.button .btn-activ {
+  background-color: var(--clr-primary);
+  color: white;
+  border-color: var(--clr-primary);
+  margin-right: 12px;
+}
+
+.section .img {
+  width: 30%;
+  position: absolute;
+  bottom: 0px;
+  right: 48px;
+}
