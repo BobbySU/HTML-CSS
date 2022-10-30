@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px) {
+
+    nav.site-navigation {
+        display: none;
+    }
+
+    .site-logos-container {
+       min-width: 600px;
+       align-items: center;
+    }
+
+    .site-information {
+       display: block;
+    }
+
+    .site-information-text {
+        text-align: center;
+    }
+
+    .site-information-text .entry-description {
+        margin: auto;
+    }
+
+    .site-information-image {
+        display: none;
+    }
+
+    .site-form .site-form-container .entry-title {
+        font-size: 8px;
+    }
+
+    .site-form .site-form-container form p {
+        flex-direction: column;
+    }
+
+    .site-form .site-form-container form p input{
+        width: 90%;
+    }
+
+    .site-form .site-form-container .button-primary {
+        margin: auto;
+    }
+
+    .site-blog .site-blog-container .site-posts {
+        display: block;
+    }
+
+    .site-footer {
+        display: block;
+        text-align: center;
+    }
+}
