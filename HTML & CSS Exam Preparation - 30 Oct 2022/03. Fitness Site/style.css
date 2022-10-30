@@ -1,0 +1,87 @@
+@import url(reset.css);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+:root {
+  --clr-red: #d01919;
+  --clr-grey-text: #c9c6c9;
+  --clr-grey-section: #efefef;
+  --clr-withe: #ffffff;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: var(--clr-red);
+  color: var(--clr-withe);
+}
+
+/* started */
+
+.section-started {
+  height: calc(100vh - 60px);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.section-started .nav ul {
+  list-style-type: none;
+}
+
+/* welcome */
+
+.welcome {
+  text-align: center;
+}
+
+.welcome ul {
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.welcome img {
+  width: 50px;
+  height: 50px;
+}
+
+/* coaches */
+
+.coaches {
+  background-color: var(--clr-grey-section);
+  text-align: center;
+}
+
+.coaches ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.coaches li {
+  padding: 20px;
+}
+
+.coaches h6 {
+  color: var(--clr-red);
+}
+
+.coaches p {
+  color: var(--clr-grey-text);
+}
+
+/* footer */
+
+.footer {
+  text-align: center;
+  background-color: var(--clr-red);
+  padding: 10px;
+}
+
+.footer a {
+  padding: -20px;
+}
